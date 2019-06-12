@@ -1,0 +1,1 @@
+This folder contains several scripts for different automatization tasks
