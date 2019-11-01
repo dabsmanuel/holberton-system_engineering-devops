@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# This script is displays "Hi" on 9th iteration and "Holberton School" on the rest
+i=0
+while [ $i -lt 10 ]
+do
+    if [ $i -eq 9 ]
+    then
+        echo "Hi"
+    fi
+    echo "Holberton School"
+    let i=$i+1
+done
