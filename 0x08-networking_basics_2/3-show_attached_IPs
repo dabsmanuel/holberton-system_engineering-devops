@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Bash script that displays all active IPv4 IPs on the machine it’s executed on.
+
+ifconfig | cut -f 2 -d ':' | cut -f 1 -d ' ' | sed '1d;3d;4d;5d;6d;7d;8d;9d;10d;12d;13d;14d;15d;16d;17d;18d'
