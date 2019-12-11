@@ -8,10 +8,10 @@ file { 'index.nginx-debian.html':
 ',
 }
 file_line { 'writes redirection site':
-  ensure  => 'present',
-  path    => '/etc/nginx/sites-available/default',
-  after   => 'listen 80 default_server;',
-  line    => 'rewrite ^/redirect_me https://findtheinvisiblecow.com permanent;',
+  ensure => 'present',
+  path   => '/etc/nginx/sites-available/default',
+  after  => 'listen 80 default_server;',
+  line   => 'rewrite ^/redirect_me https://findtheinvisiblecow.com permanent;',
 }
 service { 'nginx':
   ensure  => 'running',
