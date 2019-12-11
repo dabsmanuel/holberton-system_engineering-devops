@@ -4,7 +4,8 @@ package { 'nginx':
 }
 file { 'index.nginx-debian.html':
   path    => '/var/www/html/index.nginx-debian.html',
-  content => 'Holberton School',
+  content => 'Holberton School
+',
 }
 file_line { 'writes redirection site':
   ensure => 'present',
