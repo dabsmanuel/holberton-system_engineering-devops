@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Bash scripts that replaces 8080 port to 80 in sites-enabled default file
+sed -i 's/8080/80/g' /etc/nginx/sites-enabled/default
+service nginx start
