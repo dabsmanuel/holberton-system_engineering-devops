@@ -10,4 +10,4 @@ echo "backend my_back
         balance roundrobin
         server 872-web-01 35.243.143.162:80 check
         server 872-web-02 34.74.246.140:80 check" >> /etc/haproxy/haproxy.cfg
-service haproxy start
+service haproxy restart
