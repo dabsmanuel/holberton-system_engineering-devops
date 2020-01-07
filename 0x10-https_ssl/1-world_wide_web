@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# Configure your domain zone for subdomains www web-01 web-02 and lb-01
+
+func_subdomain() {
+    dig "$2.$1" | grep -A1 'ANSWER SECTION:' | tr '\n' ' ' | awk -v var="$2" '{print "The subdomain " var " is a " $7 " record and points to "$8}'
+}
+
+if [ $# -eq 1 ]
+then
+    for sub in www lb-01 web-01 web-02
+    do
+        func_subdomain "$1" "$sub"
+    done
+elif [ $# -eq 2 ]
+then
+    func_subdomain "$1" "$2"
+fi
+    
