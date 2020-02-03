@@ -6,14 +6,86 @@
             "cmp_tasks": 8,
             "inc_tasks": 12,
             "tasks": [
-                        "Uletay na kryl'yakh vetra",
-                        "Ti v kray rpdnoy, rodnaya pesnya nasha",
-                        "Tuda, gde mi tebya svobodno peli",
-                        "Yde bilo tak privol'no nam s toboyn",
-                        "Tam, pod znoynim nebom",
-                        "Negoy vozdukn polon",
-                        "Tam pod govor morya",
-                        "Dremlyut gori v oblakakh"
+                        {
+                            "name": "Uletay na kryl'yakh vetra",
+                            "status": "False"
+                        },
+                        {
+                            "name": "Ti v kray rpdnoy, rodnaya pesnya nasha",
+                            "status": "True"
+                        },
+                        {
+                            "name": "Tuda, gde mi tebya svobodno peli",
+                            "status": "False"
+                        },
+                        {
+                            "name": "Yde bilo tak privol'no nam s toboyn",
+                            "status": "False"
+                        },
+                        {
+                            "name": "Tam, pod znoynim nebom",
+                            "status": "True"
+                        },
+                        {
+                            "name": "Negoy vozdukn polon",
+                            "status": "True"
+                        },
+                        {
+                            "name": "Tam pod govor morya",
+                            "status": "True"
+                        },
+                        {
+                            "name": "Dremlyut gori v oblakakh",
+                            "status": "False"
+                        },
+                        {
+                            "name": "Tam tak yarko solntse svetit",
+                            "status": "False"
+                        },
+                        {
+                            "name": "Rodne gori svetom zalivaya",
+                            "status": "True"
+                        },
+                        {
+                            "name": "V dolinakh pishno rozi rastsvetayut",
+                            "status": "False"
+                        },
+                        {
+                            "name": "I sokiv'I payut v lesakh zelenikh",
+                            "status": "False"
+                        },
+                        {
+                            "name": "I sladkiy vinograd rastet",
+                            "status": "False"
+                        },
+                        {
+                            "name": "Tam tebe privol'ney, pesnya",
+                            "status": "False"
+                        },
+                        {
+                            "name": "Ti tuda i uletay",
+                            "status": "True"
+                        },
+                        {
+                            "name": "Poyte pensi slavi khanu! Poy!",
+                            "status": "True"
+                        },
+                        {
+                            "name": "Slav'te silu, doblest'khana! Slav'!",
+                            "status": "False"
+                        },
+                        {
+                            "name": "Slaven khan! khan!",
+                            "status": "False"
+                        },
+                        {
+                            "name": "Slaven on, khan nash!",
+                            "status": "False"
+                        },
+                        {
+                            "name": "Bleskom slav",
+                            "status": "True"
+                        }
                      ]
         },
         {
@@ -22,12 +94,86 @@
             "cmp_tasks": 6,
             "inc_tasks": 14,
             "tasks": [
-                        "Tam tak yarko solntse svetit",
-                        "Rodne gori svetom zalivaya",
-                        "V dolinakh pishno rozi rastsvetayut",
-                        "I sokiv'I payut v lesakh zelenikh",
-                        "I sladkiy vinograd rastet",
-                        "Tam tebe privol'ney, pesnya"
+                        {
+                            "name": "Uletay na kryl'yakh vetra",
+                            "status": "False"
+                        },
+                        {
+                            "name": "Ti v kray rpdnoy, rodnaya pesnya nasha",
+                            "status": "True"
+                        },
+                        {
+                            "name": "Tuda, gde mi tebya svobodno peli",
+                            "status": "False"
+                        },
+                        {
+                            "name": "Yde bilo tak privol'no nam s toboyn",
+                            "status": "False"
+                        },
+                        {
+                            "name": "Tam, pod znoynim nebom",
+                            "status": "True"
+                        },
+                        {
+                            "name": "Negoy vozdukn polon",
+                            "status": "True"
+                        },
+                        {
+                            "name": "Tam pod govor morya",
+                            "status": "True"
+                        },
+                        {
+                            "name": "Dremlyut gori v oblakakh",
+                            "status": "False"
+                        },
+                        {
+                            "name": "Tam tak yarko solntse svetit",
+                            "status": "False"
+                        },
+                        {
+                            "name": "Rodne gori svetom zalivaya",
+                            "status": "True"
+                        },
+                        {
+                            "name": "V dolinakh pishno rozi rastsvetayut",
+                            "status": "False"
+                        },
+                        {
+                            "name": "I sokiv'I payut v lesakh zelenikh",
+                            "status": "False"
+                        },
+                        {
+                            "name": "I sladkiy vinograd rastet",
+                            "status": "False"
+                        },
+                        {
+                            "name": "Tam tebe privol'ney, pesnya",
+                            "status": "False"
+                        },
+                        {
+                            "name": "Ti tuda i uletay",
+                            "status": "True"
+                        },
+                        {
+                            "name": "Poyte pensi slavi khanu! Poy!",
+                            "status": "True"
+                        },
+                        {
+                            "name": "Slav'te silu, doblest'khana! Slav'!",
+                            "status": "False"
+                        },
+                        {
+                            "name": "Slaven khan! khan!",
+                            "status": "False"
+                        },
+                        {
+                            "name": "Slaven on, khan nash!",
+                            "status": "False"
+                        },
+                        {
+                            "name": "Bleskom slav",
+                            "status": "True"
+                        }
                      ]
         }
     ]
