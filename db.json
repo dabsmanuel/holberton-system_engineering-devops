@@ -7,28 +7,28 @@
             "inc_tasks": 12,
             "tasks": [
                         {
-                            "name": "Uletay na kryl'yakh vetra",
+                            "name": "Uletay na krylyakh vetra",
                             "status": "False"
                         },
                         {
-                            "name": "Ti v kray rpdnoy, rodnaya pesnya nasha",
+                            "name": "Ti v kray rpdnoy rodnaya pesnya nasha",
                             "status": "True"
                         },
                         {
-                            "name": "Tuda, gde mi tebya svobodno peli",
+                            "name": "Tuda gde mi tebya svobodno peli",
                             "status": "False"
                         },
                         {
-                            "name": "Yde bilo tak privol'no nam s toboyn",
+                            "name": "Yde bilo tak privolno nam s toboyn",
                             "status": "False"
                         },
                         {
-                            "name": "Tam, pod znoynim nebom",
-                            "status": "True"
+                            "name": "Tam pod znoynim nebom",
+                            "status": "False"
                         },
                         {
                             "name": "Negoy vozdukn polon",
-                            "status": "True"
+                            "status": "False"
                         },
                         {
                             "name": "Tam pod govor morya",
@@ -51,7 +51,7 @@
                             "status": "False"
                         },
                         {
-                            "name": "I sokiv'I payut v lesakh zelenikh",
+                            "name": "I sokivI payut v lesakh zelenikh",
                             "status": "False"
                         },
                         {
@@ -59,7 +59,7 @@
                             "status": "False"
                         },
                         {
-                            "name": "Tam tebe privol'ney, pesnya",
+                            "name": "Tam tebe privolney pesnya",
                             "status": "False"
                         },
                         {
@@ -71,7 +71,7 @@
                             "status": "True"
                         },
                         {
-                            "name": "Slav'te silu, doblest'khana! Slav'!",
+                            "name": "Slavte silu doblestkhana! Slav!",
                             "status": "False"
                         },
                         {
@@ -79,7 +79,7 @@
                             "status": "False"
                         },
                         {
-                            "name": "Slaven on, khan nash!",
+                            "name": "Slaven on khan nash!",
                             "status": "False"
                         },
                         {
@@ -95,23 +95,23 @@
             "inc_tasks": 14,
             "tasks": [
                         {
-                            "name": "Uletay na kryl'yakh vetra",
+                            "name": "Uletay na krylyakh vetra",
                             "status": "False"
                         },
                         {
-                            "name": "Ti v kray rpdnoy, rodnaya pesnya nasha",
-                            "status": "True"
-                        },
-                        {
-                            "name": "Tuda, gde mi tebya svobodno peli",
+                            "name": "Ti v kray rpdnoy rodnaya pesnya nasha",
                             "status": "False"
                         },
                         {
-                            "name": "Yde bilo tak privol'no nam s toboyn",
+                            "name": "Tuda gde mi tebya svobodno peli",
                             "status": "False"
                         },
                         {
-                            "name": "Tam, pod znoynim nebom",
+                            "name": "Yde bilo tak privolno nam s toboyn",
+                            "status": "False"
+                        },
+                        {
+                            "name": "Tam pod znoynim nebom",
                             "status": "False"
                         },
                         {
@@ -120,7 +120,7 @@
                         },
                         {
                             "name": "Tam pod govor morya",
-                            "status": "True"
+                            "status": "False"
                         },
                         {
                             "name": "Dremlyut gori v oblakakh",
@@ -139,7 +139,7 @@
                             "status": "False"
                         },
                         {
-                            "name": "I sokiv'I payut v lesakh zelenikh",
+                            "name": "I sokivI payut v lesakh zelenikh",
                             "status": "False"
                         },
                         {
@@ -147,7 +147,7 @@
                             "status": "False"
                         },
                         {
-                            "name": "Tam tebe privol'ney, pesnya",
+                            "name": "Tam tebe privolney pesnya",
                             "status": "False"
                         },
                         {
@@ -159,7 +159,7 @@
                             "status": "True"
                         },
                         {
-                            "name": "Slav'te silu, doblest'khana! Slav'!",
+                            "name": "Slavte silu doblestkhana! Slav!",
                             "status": "False"
                         },
                         {
@@ -167,7 +167,7 @@
                             "status": "False"
                         },
                         {
-                            "name": "Slaven on, khan nash!",
+                            "name": "Slaven on khan nash!",
                             "status": "False"
                         },
                         {
