@@ -1,0 +1,34 @@
+{
+    "employees": [
+        {
+            "id": 1,
+            "name": "Camilo Villegas",
+            "cmp_tasks": 8,
+            "inc_tasks": 12,
+            "tasks": [
+                        "Uletay na kryl'yakh vetra",
+                        "Ti v kray rpdnoy, rodnaya pesnya nasha",
+                        "Tuda, gde mi tebya svobodno peli",
+                        "Yde bilo tak privol'no nam s toboyn",
+                        "Tam, pod znoynim nebom",
+                        "Negoy vozdukn polon",
+                        "Tam pod govor morya",
+                        "Dremlyut gori v oblakakh"
+                     ]
+        },
+        {
+            "id": 2,
+            "name": "John Romero",
+            "cmp_tasks": 6,
+            "inc_tasks": 14,
+            "tasks": [
+                        "Tam tak yarko solntse svetit",
+                        "Rodne gori svetom zalivaya",
+                        "V dolinakh pishno rozi rastsvetayut",
+                        "I sokiv'I payut v lesakh zelenikh",
+                        "I sladkiy vinograd rastet",
+                        "Tam tebe privol'ney, pesnya"
+                     ]
+        }
+    ]
+}
