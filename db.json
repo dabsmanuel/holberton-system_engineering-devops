@@ -112,11 +112,11 @@
                         },
                         {
                             "name": "Tam, pod znoynim nebom",
-                            "status": "True"
+                            "status": "False"
                         },
                         {
                             "name": "Negoy vozdukn polon",
-                            "status": "True"
+                            "status": "False"
                         },
                         {
                             "name": "Tam pod govor morya",
