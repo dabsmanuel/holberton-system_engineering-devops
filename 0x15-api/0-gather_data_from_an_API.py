@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-"""takes in a URL and an email, sends a POST request
-to the passed URL with the email as a parameter"""
+"""Gets user, their tasks done, undone and total
+and prints the done tasks"""
 from requests import get
 from sys import argv
 
@@ -13,16 +13,14 @@ if __name__ == '__main__':
     d_users = url2.json()
     completed = 0
 
-    if d_todos and d_users:
-        name = d_users.get('name')
-        for task in d_todos:
-            if task.get('completed') is True:
-                completed += 1
-        cmp_tasks = completed
-        tot_tasks = len(d_todos)
+    name = d_users.get('name')
+    for task in d_todos:
+        if task.get('completed'):
+            completed += 1
 
-        print("Employee {} is done with tasks({}/{}):".format(
-            name, cmp_tasks, tot_tasks))
-        for task in d_todos:
-            if task.get('completed') is True:
-                print("\t{}".format(task.get('title')))
+    print("Employee {} is done with tasks({}/{}):".format(
+        name, completed, len(d_todos)))
+
+    for task in d_todos:
+        if task.get('completed'):
+            print("\t {}".format(task.get('title')))
