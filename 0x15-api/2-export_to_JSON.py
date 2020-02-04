@@ -18,7 +18,7 @@ if __name__ == '__main__':
     for task in d_todos:
         d_dict[d_users['id']].append({"task": task['title'],
                                      "completed": task['completed'],
-                                      "username": d_users['name']})
+                                      "username": d_users['username']})
 
     with open(argv[1] + '.json', 'w') as outfile:
         json.dump(d_dict, outfile)
