@@ -13,10 +13,10 @@ if __name__ == '__main__':
     d_todos = url1.json()
     d_users = url2.json()
 
-    file1 = open(argv[1] + '.csv', 'w')
-    file_write = csv.writer(file1, quoting=csv.QUOTE_ALL)
-    for i in range(len(d_todos)):
-        file_write.writerow([d_users['id'],
-                             d_users['name'],
-                             d_todos[i]['completed'],
-                             d_todos[i]['title']])
+    with open(argv[1] + '.csv', 'w') as file1:
+        file_write = csv.writer(file1, quoting=csv.QUOTE_ALL)
+        for i in range(len(d_todos)):
+            file_write.writerow([d_users['id'],
+                                d_users['name'],
+                                d_todos[i]['completed'],
+                                d_todos[i]['title']])
