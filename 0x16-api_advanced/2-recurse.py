@@ -3,9 +3,12 @@
 from requests import get
 
 
-def recurse(subreddit, hot_list=[], after=None):
+def recurse(subreddit, hot_list=[], after=""):
     """GET to Reddit api for every hot post
     in a subreddit"""
+    if after is None:
+        return hot_list
+
     info = get(
         "https://www.reddit.com/r/{}/hot.json?limit=100".format(subreddit),
         headers={"User-Agent": "Doom-Agent"},
